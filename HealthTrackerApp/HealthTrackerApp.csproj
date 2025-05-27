@@ -50,6 +50,7 @@
     <Compile Include="Models\HealthManager.cs" />
     <Compile Include="Models\HealthReport.cs" />
     <Compile Include="Models\NutritionRecord.cs" />
+    <Compile Include="Models\SleepRecord.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
