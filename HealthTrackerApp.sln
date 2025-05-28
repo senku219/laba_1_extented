@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthTrackerApp", "HealthTrackerApp\HealthTrackerApp.csproj", "{8F0A5193-3172-4889-9C2A-C33F48CA1AA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthTrackerApp.Tests", "HealthTrackerApp.Tests\HealthTrackerApp.Tests.csproj", "{B30664E9-2B20-4D57-9AAA-D718DD8C8FDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8F0A5193-3172-4889-9C2A-C33F48CA1AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F0A5193-3172-4889-9C2A-C33F48CA1AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F0A5193-3172-4889-9C2A-C33F48CA1AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B30664E9-2B20-4D57-9AAA-D718DD8C8FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30664E9-2B20-4D57-9AAA-D718DD8C8FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30664E9-2B20-4D57-9AAA-D718DD8C8FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30664E9-2B20-4D57-9AAA-D718DD8C8FDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
