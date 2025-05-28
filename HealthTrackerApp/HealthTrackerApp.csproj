@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActivityDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivityDialog.Designer.cs">
+      <DependentUpon>ActivityDialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="HealthForm.cs">
       <SubType>Form</SubType>
     </Compile>
