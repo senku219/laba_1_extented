@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿// Models/NutritionRecord.cs
 namespace HealthTrackerApp.Models
 {
-    internal class NutritionRecord
+    public class NutritionRecord
     {
+        public string Food { get; }
+        public decimal Calories { get; }
+
+        public NutritionRecord(string food, decimal calories)
+        {
+            Food = food;
+            Calories = calories;
+        }
     }
 }

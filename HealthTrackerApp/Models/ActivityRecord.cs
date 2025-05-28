@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿// Models/ActivityRecord.cs
 namespace HealthTrackerApp.Models
 {
-    internal class ActivityRecord
+    public class ActivityRecord
     {
+        public string Type { get; }
+        public decimal Minutes { get; }
+
+        public ActivityRecord(string type, decimal minutes)
+        {
+            Type = type;
+            Minutes = minutes;
+        }
     }
 }

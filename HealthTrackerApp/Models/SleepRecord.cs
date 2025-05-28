@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Models/SleepRecord.cs
+using System;
 
 namespace HealthTrackerApp.Models
 {
-    internal class SleepRecord
+    public class SleepRecord
     {
+        public DateTime Date { get; }
+        public decimal Hours { get; }
+
+        public SleepRecord(DateTime date, decimal hours)
+        {
+            Date = date;
+            Hours = hours;
+        }
     }
 }
