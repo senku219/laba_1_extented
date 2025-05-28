@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HealthForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HealthForm.Designer.cs">
+      <DependentUpon>HealthForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\ActivityRecord.cs" />
     <Compile Include="Models\HealthManager.cs" />
     <Compile Include="Models\HealthReport.cs" />
