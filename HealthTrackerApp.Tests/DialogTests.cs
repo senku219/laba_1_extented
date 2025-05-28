@@ -7,6 +7,7 @@ namespace HealthTrackerApp.Tests
     public class DialogTests
     {
         [TestMethod]
+        // проверяем, что поле добавления активности пусто, а число минут по умолчанию 0
         public void ActivityDialog_DefaultValues_AreEmptyAndZero()
         {
             var dlg = new ActivityDialog();
@@ -19,6 +20,7 @@ namespace HealthTrackerApp.Tests
         }
 
         [TestMethod]
+        // проверяем, что поле добавления продукта пусто, а число калорий по умолчанию 0
         public void NutritionDialog_DefaultValues_AreEmptyAndZero()
         {
             

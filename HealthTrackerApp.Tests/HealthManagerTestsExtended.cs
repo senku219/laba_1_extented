@@ -16,6 +16,7 @@ namespace HealthTrackerApp.Tests
         }
 
         [TestMethod]
+        // активность с 0 минут создаётся и хранится как 0
         public void TrackActivity_ZeroMinutes_CreatesZeroEntry()
         {
             _manager.TrackActivity("Ходьба", 0m);
@@ -28,6 +29,7 @@ namespace HealthTrackerApp.Tests
         }
 
         [TestMethod]
+        // отрицательное время записывается без ошибок
         public void TrackActivity_NegativeMinutes_CreatesNegativeEntry()
         {
             
@@ -41,6 +43,7 @@ namespace HealthTrackerApp.Tests
         }
 
         [TestMethod]
+        // пища с 0 калорий появляется в словаре
         public void TrackNutrition_ZeroCalories_CreatesZeroEntry()
         {
           
@@ -53,6 +56,7 @@ namespace HealthTrackerApp.Tests
         }
 
         [TestMethod]
+        // пища с отрицательной калорийностью появляется в словаре
         public void TrackNutrition_NegativeCalories_CreatesNegativeEntry()
         {
             
@@ -65,6 +69,7 @@ namespace HealthTrackerApp.Tests
         }
 
         [TestMethod]
+        // запись сна с 0 часов создаётся
         public void TrackSleep_ZeroHours_CreatesZeroEntry()
         {
             
@@ -80,6 +85,7 @@ namespace HealthTrackerApp.Tests
         }
 
         [TestMethod]
+        // если переданы отрицательные часы сна, они тоже сохраняются
         public void TrackSleep_NegativeHours_CreatesNegativeEntry()
         {
             

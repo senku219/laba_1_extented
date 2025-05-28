@@ -11,6 +11,7 @@ namespace HealthTrackerApp.Tests
     public class ReportFormTests
     {
         [TestMethod]
+        // проверяем, что форма отчёта строит корректный текст
         public void ReportForm_GeneratesCorrectReportText()
         {
             // создаём HealthReport с известными данными

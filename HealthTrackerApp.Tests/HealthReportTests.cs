@@ -9,6 +9,7 @@ namespace HealthTrackerApp.Tests
     public class HealthReportTests
     {
         [TestMethod]
+        // проверяем, что изменение исходных словарей, доступно, но никак не меняет заданные исходные значения
         public void HealthReport_ImmutableCopies_AreIndependent()
         {
             // исходные словари
